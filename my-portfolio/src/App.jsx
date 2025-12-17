@@ -4,6 +4,7 @@ import { useSite } from "./context/SiteContext";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Skills from "./components/Skills";
+import Profile from "./components/Profile";
 
 function App() {
   const { theme, toggleTheme, language, toggleLanguage } = useSite();
@@ -24,10 +25,8 @@ function App() {
       <main className="container mx-auto px-6 md:px-12 max-w-7xl">
          <Hero />
          <Skills />
+         <Profile />
       </main>
-
-      
-
     </div>
   );
 }
