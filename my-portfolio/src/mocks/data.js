@@ -6,12 +6,12 @@ export const data = {
       profileImage: "/public/fatih.PNG", 
       socials: [
         {
-          logo: "/public/linkedin.png",
+          logo: "linkedin.png",
           alt_text: "linkedin",
           link: "https://www.linkedin.com/in/fatih-ture/"
         },
         {
-          logo: "/public/github.png", 
+          logo: "github.png", 
           alt_text: "github",
           link: "https://github.com/Fatihture"
         }
@@ -22,28 +22,28 @@ export const data = {
       skills: [
         {
           name: "JavaScript",
-          icon: "/public/js.jpg"
+          icon: "js.jpg"
         },
         {
           name: "React.js",
-          icon: "/public/react.png"
+          icon: "react.png"
         },
         {
           name: "Redux.js",
-          icon: "/public/redux.png"
+          icon: "redux.png"
         },
         
         {
           name: "Node.js",
-          icon: "/public/node.jpg"
+          icon: "/node.jpg"
         },
         {
           name: "Vs Code.js",
-          icon: "/public/vscode.png"
+          icon: "/vscode.png"
         },
         {
           name: "Figma",
-          icon: "/public/fıgma.jpg"
+          icon: "fıgma.jpg"
         }
       ]
     },
@@ -93,15 +93,15 @@ export const data = {
     heroSection: {
       greeting: "Merhaba! 👋",
       intro: "Ben Fatih. Full-stack developer olarak fikirleri sağlam ve ölçeklenebilir web uygulamalarına dönüştürüyorum. Tanışalım!",
-      profileImage: "/public/fatih.PNG",
+      profileImage: "fatih.PNG",
       socials: [
         {
-          logo: "/public/linkedin.png", 
+          logo: "linkedin.png", 
           alt_text: "linkedin",
           link: "https://www.linkedin.com/in/fatih-ture/"
         },
         {
-          logo: "/public/github.png", 
+          logo: "github.png", 
           alt_text: "github",
           link: "https://github.com/Fatihture"
         }
@@ -112,28 +112,28 @@ ctaHTML: "Şu anda <strong class='text-brand-pink'>Frontend Developer</strong> o
       skills: [
         {
           name: "JavaScript",
-          icon: "/public/js.jpg"
+          icon: "js.jpg"
         },
         {
           name: "React.js",
-          icon: "/public/react.png"
+          icon: "react.png"
         },
         {
           name: "Redux.js",
-          icon: "/public/redux.png"
+          icon: "redux.png"
         },
         
         {
           name: "Node.js",
-          icon: "/public/node.jpg"
+          icon: "node.jpg"
         },
         {
           name: "Vs Code.js",
-          icon: "/public/vscode.png"
+          icon: "vscode.png"
         },
         {
           name: "Figma",
-          icon: "/public/fıgma.jpg"
+          icon: "fıgma.jpg"
         }
       ]
     },
