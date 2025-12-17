@@ -2,8 +2,8 @@ export const data = {
   en: {
     heroSection: {
       greeting: "Hi! 👋",
-      intro: "I'm Fatih.",
-      profileImage: "/public/foto.jpg", 
+      intro: "I’m Fatih. I’m a full-stack developer. I can craft solid and scalable web application. Let’s meet!",
+      profileImage: "/public/fatih.PNG", 
       socials: [
         {
           logo: "/public/linkedin.png",
@@ -16,7 +16,7 @@ export const data = {
           link: "https://github.com/Fatihture"
         }
       ],
-      ctaHTML: "Currently building scalable web applications as a <strong>Frontend Developer</strong> using <strong>React</strong> and <strong>Tailwind CSS</strong>."
+      ctaHTML: "Currently building scalable web applications as a <strong>Frontend Developer</strong>."
     },
     skillsSection: {
       title: "Skills",
@@ -93,8 +93,8 @@ export const data = {
   tr: {
     heroSection: {
       greeting: "Merhaba! 👋",
-      intro: "Ben Fatih.",
-      profileImage: "/public/foto.jpg",
+      intro: "Ben Fatih. Full-stack developer olarak fikirleri sağlam ve ölçeklenebilir web uygulamalarına dönüştürüyorum. Tanışalım!",
+      profileImage: "/public/fatih.PNG",
       socials: [
         {
           logo: "/public/linkedin.png", 
@@ -107,7 +107,7 @@ export const data = {
           link: "https://github.com/Fatihture"
         }
       ],
-      ctaHTML: "Şu anda <strong>Frontend Developer</strong> olarak <strong>React</strong> ve <strong>Tailwind CSS</strong> ile ölçeklenebilir web uygulamaları geliştiriyorum."
+      ctaHTML: "Şu anda <strong>Frontend Developer</strong> olarak ölçeklenebilir web uygulamaları geliştiriyorum."
     },
     skillsSection: {
       title: "Yetenekler",

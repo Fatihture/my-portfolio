@@ -1,34 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React from "react";
+import Hero from "./components/Hero";
+import { useSite } from "./context/SiteContext";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const { theme, toggleTheme, language, toggleLanguage } = useSite();
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+    <div className={`min-h-screen font-sans transition-colors duration-300 ${theme === 'dark' ? 'bg-dark-bg text-white' : 'bg-white text-gray-900'}`}>
+      <ToastContainer />
+      
+      <header className="container mx-auto px-6 py-8 flex justify-end items-center gap-6 font-bold text-xs text-gray-500">
+        <button onClick={toggleLanguage} className="hover:text-brand-pink transition uppercase tracking-widest">
+           {language === 'tr' ? 'SWITCH TO ENGLISH' : 'TÜRKÇE\'YE GEÇ'}
         </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+        <div className="flex items-center gap-2 cursor-pointer select-none border border-brand-pink/30 px-3 py-1 rounded-full" onClick={toggleTheme}>
+           {theme === 'light' ? '🌙 DARK MODE' : '☀️ LIGHT MODE'}
+        </div>
+      </header>
+
+      <main className="container mx-auto px-6 md:px-12 max-w-7xl">
+         <Hero />
+      </main>
+
+    </div>
+  );
 }
 
-export default App
+export default App;
