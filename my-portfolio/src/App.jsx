@@ -5,6 +5,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Skills from "./components/Skills";
 import Profile from "./components/Profile";
+import Projects from "./components/Projects";
 
 function App() {
   const { theme, toggleTheme, language, toggleLanguage } = useSite();
@@ -26,6 +27,7 @@ function App() {
          <Hero />
          <Skills />
          <Profile />
+         <Projects />
       </main>
     </div>
   );

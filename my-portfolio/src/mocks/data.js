@@ -67,15 +67,15 @@ export const data = {
     title: "Technological Meals",
     desc: "A web-based project that presents technology concepts using a creative food-themed approach. Built with modern frontend technologies.",
     tags: ["react", "tailwind", "ui-design"],
-    links: { repo: "https://github.com/Fatihture/S8-TeknolojikYemekler-Projesi", app: "#" },
-    image: "/images/tech-meals.png"
+    links: { repo: "https://github.com/Fatihture/S8-TeknolojikYemekler-Projesi", app: "https://github.com/Fatihture/S8-TeknolojikYemekler-Projesi" },
+    image: "home-banner.png"
   },
   {
     title: "Seesaw Simulation",
     desc: "A physics-based seesaw simulation that demonstrates balance, weight, and torque concepts through interactive visuals.",
     tags: ["javascript", "simulation", "physics"],
     links: { repo: "https://github.com/Fatihture/Fatih-Ture-seesaw-simulation", app: "https://fatihture.github.io/Fatih-Ture-seesaw-simulation/" },
-    image: "/images/seesaw.png"
+    image: "seesaw.png"
   }
 ]
 
@@ -158,15 +158,15 @@ export const data = {
     title: "Teknolojik Yemekler",
     desc: "Teknoloji kavramlarını yaratıcı bir yemek temasıyla sunan web tabanlı bir proje. Modern frontend teknolojileri kullanılarak geliştirildi.",
     tags: ["react", "tailwind", "ui-tasarım"],
-    links: { repo: "https://github.com/Fatihture/S8-TeknolojikYemekler-Projesi", app: "#" },
-    image: "/images/teknolojik-yemekler.png"
+    links: { repo: "https://github.com/Fatihture/S8-TeknolojikYemekler-Projesi", app: "https://github.com/Fatihture/S8-TeknolojikYemekler-Projesi" },
+    image: "/home-banner.png"
   },
   {
     title: "Seesaw Simülasyonu",
     desc: "Denge, ağırlık ve tork kavramlarını etkileşimli görsellerle anlatan, fizik tabanlı bir tahterevalli simülasyonu.",
     tags: ["javascript", "simülasyon", "fizik"],
     links: { repo: "https://github.com/Fatihture/Fatih-Ture-seesaw-simulation", app: "https://fatihture.github.io/Fatih-Ture-seesaw-simulation/" },
-    image: "/images/seesaw.png"
+    image: "seesaw.png"
   }
 ]
 
