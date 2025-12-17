@@ -10,7 +10,7 @@ export default function Hero() {
       
       {/* SOL TARAFI: Yazılar */}
       <div className="flex-1 space-y-6">
-        <h3 className="text-xl font-bold text-brand-pink tracking-widest">
+        <h3 className="text-xl font-bold tracking-widest">
           {greeting}
         </h3>
         
