@@ -3,39 +3,39 @@ export const data = {
     heroSection: {
       greeting: "Hi! 👋",
       intro: "I’m Fatih. I’m a full-stack developer. I can craft solid and scalable web application. Let’s meet!",
-      profileImage: "/public/fatih.PNG", 
+      profileImage: "/fatih.PNG", 
       socials: [
         {
-          logo: "linkedin.png",
+          logo: "/linkedin.png", 
           alt_text: "linkedin",
           link: "https://www.linkedin.com/in/fatih-ture/"
         },
         {
-          logo: "github.png", 
+          logo: "/github.png", 
           alt_text: "github",
           link: "https://github.com/Fatihture"
         }
       ],
-    ctaHTML: "Currently building scalable web applications as a <strong class='text-brand-pink'>Frontend Developer</strong>"},
+      ctaHTML: "Currently building scalable web applications as a <strong class='text-brand-pink'>Frontend Developer</strong>"
+    },
     skillsSection: {
       title: "Skills",
       skills: [
         {
           name: "JavaScript",
-          icon: "js.jpg"
+          icon: "/js.jpg" 
         },
         {
           name: "React.js",
-          icon: "react.png"
+          icon: "/react.png" 
         },
         {
           name: "Redux.js",
-          icon: "redux.png"
+          icon: "/redux.png" 
         },
-        
         {
           name: "Node.js",
-          icon: "/node.jpg"
+          icon: "/node.jpg" 
         },
         {
           name: "Vs Code.js",
@@ -43,7 +43,7 @@ export const data = {
         },
         {
           name: "Figma",
-          icon: "fıgma.jpg"
+          icon: "/figma.jpg" 
         }
       ]
     },
@@ -62,22 +62,21 @@ export const data = {
     projectsSection: {
       title: "Projects",
       projects: [
-  {
-    title: "Technological Meals",
-    desc: "A web-based project that presents technology concepts using a creative food-themed approach. Built with modern frontend technologies.",
-    tags: ["react", "tailwind", "ui-design"],
-    links: { repo: "https://github.com/Fatihture/S8-TeknolojikYemekler-Projesi", app: "https://github.com/Fatihture/S8-TeknolojikYemekler-Projesi" },
-    image: "home-banner.png"
-  },
-  {
-    title: "Seesaw Simulation",
-    desc: "A physics-based seesaw simulation that demonstrates balance, weight, and torque concepts through interactive visuals.",
-    tags: ["javascript", "simulation", "physics"],
-    links: { repo: "https://github.com/Fatihture/Fatih-Ture-seesaw-simulation", app: "https://fatihture.github.io/Fatih-Ture-seesaw-simulation/" },
-    image: "seesaw.png"
-  }
-]
-
+        {
+          title: "Technological Meals",
+          desc: "A web-based project that presents technology concepts using a creative food-themed approach. Built with modern frontend technologies.",
+          tags: ["react", "tailwind", "ui-design"],
+          links: { repo: "https://github.com/Fatihture/S8-TeknolojikYemekler-Projesi", app: "https://github.com/Fatihture/S8-TeknolojikYemekler-Projesi" },
+          image: "/home-banner.png" 
+        },
+        {
+          title: "Seesaw Simulation",
+          desc: "A physics-based seesaw simulation that demonstrates balance, weight, and torque concepts through interactive visuals.",
+          tags: ["javascript", "simulation", "physics"],
+          links: { repo: "https://github.com/Fatihture/Fatih-Ture-seesaw-simulation", app: "https://fatihture.github.io/Fatih-Ture-seesaw-simulation/" },
+          image: "/seesaw.png" 
+        }
+      ]
     },
     footerSection: {
       msg: "Let's work together on your next product.",
@@ -85,55 +84,59 @@ export const data = {
         { name: "Github", url: "https://github.com/Fatihture" },
         { name: "Personal Blog", url: "#" },
         { name: "Linkedin", url: "https://www.linkedin.com/in/fatih-ture/" },
-        { name: "Email", url: "fatihtureee@gmail.com"}
+        { name: "Email", url: "fatihtureee@gmail.com" }
       ]
     }
   },
+
+
+
+
   tr: {
     heroSection: {
       greeting: "Merhaba! 👋",
       intro: "Ben Fatih. Full-stack developer olarak fikirleri sağlam ve ölçeklenebilir web uygulamalarına dönüştürüyorum. Tanışalım!",
-      profileImage: "fatih.PNG",
+      profileImage: "/fatih.PNG", 
       socials: [
         {
-          logo: "linkedin.png", 
+          logo: "/linkedin.png", 
           alt_text: "linkedin",
           link: "https://www.linkedin.com/in/fatih-ture/"
         },
         {
-          logo: "github.png", 
+          logo: "/github.png", 
           alt_text: "github",
           link: "https://github.com/Fatihture"
         }
       ],
-ctaHTML: "Şu anda <strong class='text-brand-pink'>Frontend Developer</strong> olarak ölçeklenebilir web uygulamaları geliştiriyorum.",},
+      ctaHTML: "Şu anda <strong class='text-brand-pink'>Frontend Developer</strong> olarak ölçeklenebilir web uygulamaları geliştiriyorum.",
+    },
     skillsSection: {
       title: "Yetenekler",
       skills: [
         {
           name: "JavaScript",
-          icon: "js.jpg"
+          icon: "/js.jpg" 
         },
         {
           name: "React.js",
-          icon: "react.png"
+          icon: "/react.png" 
         },
         {
           name: "Redux.js",
-          icon: "redux.png"
+          icon: "/redux.png" 
         },
-        
         {
           name: "Node.js",
-          icon: "node.jpg"
+          icon: "/node.jpg"
         },
         {
           name: "Vs Code.js",
-          icon: "vscode.png"
+          icon: "/vscode.png"
         },
         {
           name: "Figma",
-          icon: "fıgma.jpg"
+          icon: "/figma.jpg" 
         }
       ]
     },
@@ -152,22 +155,21 @@ ctaHTML: "Şu anda <strong class='text-brand-pink'>Frontend Developer</strong> o
     projectsSection: {
       title: "Projeler",
       projects: [
-  {
-    title: "Teknolojik Yemekler",
-    desc: "Teknoloji kavramlarını yaratıcı bir yemek temasıyla sunan web tabanlı bir proje. Modern frontend teknolojileri kullanılarak geliştirildi.",
-    tags: ["react", "tailwind", "ui-tasarım"],
-    links: { repo: "https://github.com/Fatihture/S8-TeknolojikYemekler-Projesi", app: "https://github.com/Fatihture/S8-TeknolojikYemekler-Projesi" },
-    image: "/home-banner.png"
-  },
-  {
-    title: "Seesaw Simülasyonu",
-    desc: "Denge, ağırlık ve tork kavramlarını etkileşimli görsellerle anlatan, fizik tabanlı bir tahterevalli simülasyonu.",
-    tags: ["javascript", "simülasyon", "fizik"],
-    links: { repo: "https://github.com/Fatihture/Fatih-Ture-seesaw-simulation", app: "https://fatihture.github.io/Fatih-Ture-seesaw-simulation/" },
-    image: "seesaw.png"
-  }
-]
-
+        {
+          title: "Teknolojik Yemekler",
+          desc: "Teknoloji kavramlarını yaratıcı bir yemek temasıyla sunan web tabanlı bir proje. Modern frontend teknolojileri kullanılarak geliştirildi.",
+          tags: ["react", "tailwind", "ui-tasarım"],
+          links: { repo: "https://github.com/Fatihture/S8-TeknolojikYemekler-Projesi", app: "https://github.com/Fatihture/S8-TeknolojikYemekler-Projesi" },
+          image: "/home-banner.png"
+        },
+        {
+          title: "Seesaw Simülasyonu",
+          desc: "Denge, ağırlık ve tork kavramlarını etkileşimli görsellerle anlatan, fizik tabanlı bir tahterevalli simülasyonu.",
+          tags: ["javascript", "simülasyon", "fizik"],
+          links: { repo: "https://github.com/Fatihture/Fatih-Ture-seesaw-simulation", app: "https://fatihture.github.io/Fatih-Ture-seesaw-simulation/" },
+          image: "/seesaw.png" 
+        }
+      ]
     },
     footerSection: {
       msg: "Bir sonraki projenizde birlikte çalışalım.",
@@ -175,7 +177,7 @@ ctaHTML: "Şu anda <strong class='text-brand-pink'>Frontend Developer</strong> o
         { name: "Github", url: "https://github.com/Fatihture" },
         { name: "Kişisel Blog", url: "#" },
         { name: "Linkedin", url: "https://www.linkedin.com/in/fatih-ture/" },
-        { name: "Email", url: "fatihtureee@gmail.com"}
+        { name: "Email", url: "fatihtureee@gmail.com" }
       ]
     }
   }
