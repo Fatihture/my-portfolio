@@ -1,6 +1,6 @@
 import React from "react";
 import { useSite } from "../context/SiteContext";
-import Footer from "./Footer"; // 👈 Footer'ı buraya import ettik
+import Footer from "./Footer"; 
 
 export default function Projects() {
   const { content } = useSite();
@@ -8,16 +8,13 @@ export default function Projects() {
 
   return (
     <section className="py-14">
-      {/* ANA BEYAZ ÇERÇEVE */}
       <div className="bg-white dark:bg-dark-card rounded-xl shadow-lg p-8 md:p-12 mx-auto border border-gray-100 dark:border-gray-700">
         
-        {/* BAŞLIK */}
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 mb-12 text-center">
           {title}
         </h2>
 
-        {/* PROJE KARTLARI */}
-        <div className="grid md:grid-cols-2 gap-10 mb-10"> {/* mb-10 ekledik ki footer ile yapışmasın */}
+        <div className="grid md:grid-cols-2 gap-10 mb-10"> 
           {projects.map((project, index) => (
             <div key={index} className="bg-[#F4F4F4] dark:bg-gray-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all hover:-translate-y-1 group">
               <div className="h-64 overflow-hidden">
@@ -47,7 +44,6 @@ export default function Projects() {
           ))}
         </div>
 
-        {/* 👇 FOOTER ARTIK BURADA, KUTUNUN İÇİNDE */}
         <Footer /> 
         
       </div>

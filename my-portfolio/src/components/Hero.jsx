@@ -7,7 +7,8 @@ export default function Hero() {
 
   return (
     <section className="flex flex-col md:flex-row items-center justify-between gap-10 py-12">
-      
+
+         
       {/* SOL TARAFI: Yazılar */}
       <div className="flex-1 space-y-6">
         <h3 className="text-xl font-bold tracking-widest">

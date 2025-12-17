@@ -6,6 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Skills from "./components/Skills";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
+import Header from "./components/Header";
 
 function App() {
   const { theme, toggleTheme, language, toggleLanguage } = useSite();
@@ -13,17 +14,9 @@ function App() {
   return (
     <div className={`min-h-screen font-sans transition-colors duration-300 ${theme === 'dark' ? 'bg-dark-bg text-white' : 'bg-[#F4F4F4] text-gray-900'}`}>
       <ToastContainer />
-      
-      <header className="container mx-auto px-6 py-8 flex justify-end items-center gap-6 font-bold text-xs text-gray-500">
-        <button onClick={toggleLanguage} className="hover:text-brand-pink transition uppercase tracking-widest">
-           {language === 'tr' ? 'SWITCH TO ENGLISH' : 'TÜRKÇE\'YE GEÇ'}
-        </button>
-        <div className="flex items-center gap-2 cursor-pointer select-none border border-brand-pink/30 px-3 py-1 rounded-full" onClick={toggleTheme}>
-           {theme === 'light' ? '🌙 DARK MODE' : '☀️ LIGHT MODE'}
-        </div>
-      </header>
 
       <main className="container mx-auto px-6 md:px-12 max-w-7xl">
+        <Header />
          <Hero />
          <Skills />
          <Profile />
