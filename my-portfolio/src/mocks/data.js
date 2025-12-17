@@ -16,8 +16,7 @@ export const data = {
           link: "https://github.com/Fatihture"
         }
       ],
-      ctaHTML: "Currently building scalable web applications as a <strong>Frontend Developer</strong>."
-    },
+    ctaHTML: "Currently building scalable web applications as a <strong class='text-brand-pink'>Frontend Developer</strong>"},
     skillsSection: {
       title: "Skills",
       skills: [
@@ -107,8 +106,7 @@ export const data = {
           link: "https://github.com/Fatihture"
         }
       ],
-      ctaHTML: "Şu anda <strong>Frontend Developer</strong> olarak ölçeklenebilir web uygulamaları geliştiriyorum."
-    },
+ctaHTML: "Şu anda <strong class='text-brand-pink'>Frontend Developer</strong> olarak ölçeklenebilir web uygulamaları geliştiriyorum.",},
     skillsSection: {
       title: "Yetenekler",
       skills: [

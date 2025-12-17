@@ -13,8 +13,9 @@ export default function Profile() {
 
       <div className="flex flex-col md:flex-row gap-12">
         
-        {/* SOL: Temel Bilgiler Kartı */}
-        <div className="flex-1 bg-white dark:bg-dark-card p-8 rounded-2xl shadow-[12px_12px_25px_-5px_rgba(0,0,0,0.3)] dark:shadow-[12px_12px_25px_-5px_rgba(0,0,0,0.7)] relative overflow-hidden group">
+        {/* Temel Bilgiler Kartı */}
+        <div className="flex flex-col md:flex-row gap-12 max-w-5xl mx-auto"></div>
+        <div className="flex-1 bg-white dark:bg-dark-card p-8  rounded-2xl shadow-[12px_12px_25px_-5px_rgba(0,0,0,0.3)] dark:shadow-[12px_12px_25px_-5px_rgba(0,0,0,0.7)] relative overflow-hidden group">
           
           <h3 className="text-2xl font-bold text-brand-pink mb-6">
             {basicInfoTitle}
@@ -34,7 +35,7 @@ export default function Profile() {
           </div>
         </div>
 
-        {/* SAĞ: Hakkımda Yazısı */}
+        {/*  Hakkımda Yazısı */}
         <div className="flex-1 space-y-6 flex flex-col justify-center">
           <div className="relative">
               <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 relative z-10 inline-block">
